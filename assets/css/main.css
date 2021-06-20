@@ -1,0 +1,107 @@
+@import "/assets/css/reset.css";
+@import "/assets/css/font.css";
+
+/*Styles header*/
+.header {
+  max-width: 1440px;
+  margin: 0 auto 227px;
+  width: 100%;
+  padding: 30px 15px;
+  text-align: right;
+}
+
+#js_form-refresh button {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+#js_form-refresh button i {
+  margin: 0 0 0 11px;
+  color: #4f4f4f;
+  transform: rotate(125deg);
+}
+
+/*Styles app*/
+
+.quote {
+  height: 300px;
+  max-width: 750px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 0 0 0 99px;
+}
+
+.quote::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: #f7df94;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-family: "Raleway-Regular", sans-serif;
+  line-height: 43px;
+  height: 100%;
+  color: #000000;
+}
+
+.quote-author {
+  width: 100%;
+  margin: 109px auto 0;
+  max-width: 672px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 30px;
+  text-decoration: none;
+  transition: 0.3s ease all;
+}
+
+.quote-author-name {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 24px;
+  color: #4f4f4f;
+  transition: 0.3s ease all;
+}
+
+.quote-author-type {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  color: #828282;
+}
+
+.quote-author-arrow i {
+  color: #ffffff;
+}
+
+.quote-author:hover {
+  background: #333333;
+}
+.quote-author:hover .quote-author-name {
+  color: #f2f2f2;
+}
+/*Styles footer*/
+.footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 208px 0 0;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.footer p {
+  color: #828282;
+}
