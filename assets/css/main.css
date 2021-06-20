@@ -10,7 +10,7 @@
   text-align: right;
 }
 
-#js_form-refresh button {
+.header button {
   background: none;
   border: 0;
   padding: 0;
@@ -20,16 +20,19 @@
   color: #4f4f4f;
 }
 
-#js_form-refresh button i {
+.header button i {
   margin: 0 0 0 11px;
   color: #4f4f4f;
   transform: rotate(125deg);
 }
 
 /*Styles app*/
-
+#app {
+  padding: 0 15px;
+}
 .quote {
-  height: 300px;
+  height: auto;
+  min-height: 300px;
   max-width: 750px;
   margin: 0 auto;
   width: 100%;
@@ -64,6 +67,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px 30px;
+  outline: none;
   text-decoration: none;
   transition: 0.3s ease all;
 }
