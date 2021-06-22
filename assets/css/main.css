@@ -97,7 +97,7 @@
 }
 
 #js_quote-all-container .quote {
-  margin: 0 0 140px 0;
+  margin: 0 auto 140px;
 }
 
 .quote-author.hidden,
