@@ -1,5 +1,5 @@
-@import "/assets/css/reset.css";
-@import "/assets/css/font.css";
+@import "./assets/css/reset.css";
+@import "./assets/css/font.css";
 
 /*Styles header*/
 .header {
