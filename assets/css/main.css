@@ -30,6 +30,7 @@
 #app {
   padding: 0 15px;
 }
+
 .quote {
   height: auto;
   min-height: 300px;
@@ -69,6 +70,7 @@
   padding: 50px 30px;
   outline: none;
   text-decoration: none;
+  cursor: pointer;
   transition: 0.3s ease all;
 }
 
@@ -95,6 +97,15 @@
 }
 .quote-author:hover .quote-author-name {
   color: #f2f2f2;
+}
+
+#js_quote-all-container .quote {
+  margin: 0 0 140px 0;
+}
+
+.quote-author.hidden,
+.hidden {
+  display: none;
 }
 /*Styles footer*/
 .footer {
